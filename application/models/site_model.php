@@ -1,7 +1,12 @@
 <?php
 
-class Site_model extends Model
+class Site_model extends CI_Model
 {
+	function __construct()
+	    {
+	        // Call the Model constructor
+	        parent::__construct();
+	    }
 	
 	function get_records()
 	{
